@@ -89,3 +89,31 @@ header {
         width: 400px;
     }
 }
+
+.quadrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 55px;
+    border: 1px solid white;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    transition: background-color 0.2s ease-in-out;
+    
+    & .material-symbols-outlined{
+        font-size: 2rem;
+        color: white;
+        
+    }
+}
+
+.quadrado:hover{
+    background-color: white;
+    cursor: pointer;
+    & .material-symbols-outlined{
+        color: black;
+        
+        
+    }
+}

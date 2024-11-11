@@ -6,8 +6,11 @@ module.exports = {
     ],
     theme: {
       extend: {
+        fontFamily: {
+          sans: ['Libre Baskerville', 'sans-serif'],
+        },
         colors:{
-            'sepia': '#4A4A43' ,
+            sepia : '#4A4A43' ,
         }
       }
     },
