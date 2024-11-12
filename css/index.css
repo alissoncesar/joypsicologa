@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: white;
+    /* background-color: white; */
     line-height: 24px;
     height: 50px;
     padding: 12px;
@@ -58,7 +58,7 @@ header {
     }
 }
 
-.container{
+#container{
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -67,6 +67,7 @@ header {
         & ul{
             line-height: 24px;
             color: rgb(50, 50, 50);
+            list-style-type: disc;
         }
         h1{
             font-family: "Libre Baskerville";
@@ -78,13 +79,17 @@ header {
         }  
         button{
             color: white;
-            background-color: #855309;
+            background-color: #846444;
             padding: 14px 25px;
             font-size: 14px;
             margin-top: 10px;
+            transition: background-color 0.2s ease-in-out;
+        }
+        button:hover{
+            background-color: #4A4A43;
         }
 }
-    .segunda-imagem {
+    #segunda-imagem {
         height: 423px;
         width: 400px;
     }
